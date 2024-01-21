@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!-- Embedding css in html files-->
+        <link rel="stylesheet" href="landing_page1.css">
+        
+        <title> HTML CSS PROJ1 </title>
+        <!-- font link for heading <h1> and <h2> -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
+        
+        <!-- font link for paragraphs -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lemon&family=Playfair+Display&display=swap" rel="stylesheet">
+        
+        <!-- font link for paragraph title -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap" rel="stylesheet">
+        
+
+    <head>
+    <body>
+        <h1 class="title"> Thermal Camouflage </h1>
+        <h2 class="descrip"> disguising tactical armoured vehicle </h2>
+
+        <div id="img_para">
+            <!--<img id="main_img" src="main-image.jpg" alt="not found!" />-->
+        </div>
+
+        <div class="para1">
+            <p class="head_text"> Introduction </p>
+            <p >
+                "The process of hiding and disruption is termed as <em>camouflage</em>, and it is widely
+                adopted by military for the purpose of disguising strategic and tactical objects from the 
+                foe. The inspiration of <em>camouflage</em>  is from <strong>Chameleon</strong>. The main 
+                aim of <em>camouflage</em> technology is to conceal the military object signatures, making 
+                them invisible to the foe."  
+            </p>
+        </div>
+
+        <div class="align_hor">
+            <p id="para2">
+                In 2011, BAE systems presented adaptive clocking technology for military armoured vehicle,
+                which was practically deployed on combat vehicle (CV90). Which incorporates active heating and 
+                cooling elements for transformation of background thermal pattern on it - by the aids of thermal 
+                imaging cameras. This modular design was officially patented and is known as <strong id="txt_u1">ADAPTIV
+                </strong>.  
+            </p>
+            <figure id="fig_sub_img1">
+                <img id="sub-img1" src="image.webp" alt="Not found!" width="200px" height="200px" />
+                <br/>
+                <figcaption id="fig_cap1"> ADAPTIV - MOdular design </figcaption>
+            </figure>
+        </div>
+
+        <div class="seperator1"></div>
+
+        <div class="details">
+            <p id="IR_intro">
+                <ul id="IR_intro_list">
+                    <h3 id="IR_intro_list_head"> Infrared Radiation </h3>
+                    <li id="D1_E1"> Every object above absolute zero 0 K (-273.1 &degC or -459.7 &degF) emits radiation on the IR
+                        spectrum. </li>
+                    <li id="D1_E1"> Infrared IR radiation is the electromagnetic EM spectrum, where the prefix <i>infra</i> has 
+                        its origin from the Latin word, which means <i>below</i>. </li>
+                    <li id="D1_E1"> Hence the term <i>infrared</i> refers to the radiation spectrum beyond the red region of 
+                        visible spectrum. </li>
+                </ul> 
+            </p>
+
+            <p id="IR_regions">
+                <ul id="IR_region_list">
+                    <h3 id="IR_region_list_head"> IR sub regions </h3>
+                    <li id="region1"> NIR [0.7&#181m - 1.4&#181m]</li>
+                    <li id="region2"> SWIR [1.4&#181m - 3&#181m]</li>
+                    <li id="region3"> MWIR [3&#181m - 8&#181m]</li>
+                    <li id="region4"> LWIR [8&#181m - 14&#181m]</li>
+                    <li id="region5"> FIR [14&#181m -1000&#181m]</li>
+                </ul>                
+            </p>
+
+            <figure id="fig_sub_img2">
+                <img id="sub-img2" src="EM spectrum.jpg" alt="Not found!" width="550px" height="300px" />
+            </figure>
+
+        </div>
+
+        <div class="seperator1"></div>
+
+        <div class="pioneer1">
+            
+            <ol id="Pioneer1">
+                <li id="Pioneer1_nm"> <h3>Sir William Hershel:</h3></li>
+                <ul>
+                    <li> The discovery of <strong>IR</strong> spectrum is officialy credited to Willam 
+                        Hershel in 1800, a British astronomer.</li>
+                    <li> An experiment performed by <strong>Isaac Newton</strong> pique Hershel's interest,
+                        in which the white light from the sun splits into a color spectrum with the aids
+                        of glass prism. For the purpose of measuring the temperature of different colors.</li>
+                    <li> Hershel's experimental setup includes a <i>glass prism</i>, <i>pasteboard</i> and 
+                        <i>three thermometers</i></li>
+                    <li> By placing thermometers under <i>red</i>, <i>green</i> and <i>violet</i> lights,
+                        he observed increasing heating effects from violet to red light.</li>
+                    <li> By repeating the experiment with scaled paper, he observed a maximum heating effect
+                        at a distance of <strong>(1/2) inch</strong> beyond the red light in the invisible 
+                        region. Thus discovering the new region of <strong>EM</strong> spectrum, termed as 
+                        <strong>IR</strong> spectrum.</li>
+                    <li> He also concluded that the radiated IR energy also experiences reflection and refraction
+                        as the visible spectrum.</li>
+                </ul>
+            </ol>
+            
+            <figure id="Pioneer_fig">
+                <img id="Pioneer1_img" src="hershel.jpg" alt="not found" width="300" height="150"/>
+            </figure>
+        </div>
+
+        <!---->
+        <div class="pioneer2">
+            
+            <ol id="Pioneer1">
+                <li id="Pioneer1_nm"> <h3>Sir John Hershel:</h3></li>
+                <ul>
+                    <li> <strong>John Hershel</strong> in 1840, proceeded his father experiment <i>
+                        Sir William Hershel</i>, creating the thermal radiation image kown as 
+                        <q>thermogram</q> by evaporation of alcohol and carbon particle mixture when 
+                        focusing solar radiation on it. </li>
+
+                </ul>
+            </ol>
+            
+            <figure id="Pioneer_fig">
+                <img id="Pioneer1_img" src="john hershel.jpg" alt="not found" width="300" height="150"/>
+            </figure>
+        </div>
+
+        <!---->
+        <div class="pioneer3">
+    
+            <ol id="Pioneer1">
+                <li id="Pioneer1_nm"> <h3>James Clerk Maxwell:</h3></li>
+                <ul>
+                    <li> <strong>James Clerk Maxwell</strong> laid the theoratical foundation of 
+                    <strong>EM</strong> radiation in 1864, infering that the change in electric current
+                    results in the creation of electric and magnitic fields known as <strong>EM</strong> 
+                    radiation.</li>
+
+                </ul>
+            </ol>
+            
+            <figure id="Pioneer_fig">
+                <img id="Pioneer1_img" src="maxwell.jpg" alt="not found" width="300" height="150"/>
+            </figure>
+        </div>
+
+        <!---->
+        <div class="pioneer4">
+
+            <ol id="Pioneer1">
+                <li id="Pioneer1_nm"> <h3>Max Planck:</h3></li>
+                <ul>
+                    <li> In 1900 <strong>Max Planck</strong> proposed that the propogation of 
+                    <strong>EM</strong> radiation in the form of discrete packets known as photons.
+                    </li>
+
+                </ul>
+            </ol>
+            
+            <figure id="Pioneer_fig">
+                <img id="Pioneer1_img" src="max-planck.jpg" alt="not found" width="300" height="150"/>
+            </figure>
+        </div>
+
+        <!---->
+        <div class="pioneer5">
+
+            <ol id="Pioneer1">
+                <li id="Pioneer1_nm"> <h3>Joseph Stefan:</h3></li>
+                <ul>
+                    <li> In 1879 <strong>Joseph Stefan</strong> experimentally determined the 
+                        total emitted thermal power od the body in <i>(W/m<sup>2</sup>)</i> over 
+                        all wavelengths and was verified theoratically by <strong>Ludwig Boltzmann</strong>in 1884.
+                    </li>
+
+                </ul>
+            </ol>
+            
+            <figure id="Pioneer_fig">
+                <img id="Pioneer1_img" src="stefan_boltzmann.jpg" alt="not found" width="300" height="150"/>
+            </figure>
+        </div>
+
+        <!---->
+        <div class="pioneer6">
+
+            <ol id="Pioneer1">
+                <li id="Pioneer1_nm"> <h3>Willy Wien:</h3></li>
+                <ul>
+                    <li> In 1894 <strong>Willy Wien</strong> developed the relation between the object temperature 
+                        and its radiated wavelength.
+                    </li>
+                    <li> As the object temperature increases above 800K, objects starts to radiate in the visible 
+                        portion ans well as in the <strong>IR</strong> portion and the peak of maximum radiance shifts
+                        towards shorter wavelengths. Thus the amount of radiant energy provides a fair indication of object's temperature.</li>
+                    <li> The Blacksmith of the ancient era recognize the time of quenching and tempering the metal from the colors
+                        of heated glowing metal.
+                    </li>
+                </ul>
+            </ol>
+            
+            <figure id="Pioneer_fig">
+                <img id="Pioneer1_img" src="Willy-Wien.jpg" alt="not found" width="300" height="150"/>
+            </figure>
+        </div>
+        
+        <div class="bottom_seperator"></div>
+
+
+
+        </div>
+    </body>
+</html>
